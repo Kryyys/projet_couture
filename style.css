@@ -1,0 +1,105 @@
+/*--------------------reset-----------------------*/
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*--------------------fin du reset-----------------------*/
+
+/* ------------ MARGIN BODY ???? ----------------- */
+/* body {
+    display: block;
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: #fcf3b4;
+} */
+
+/* ------------- HEADER ------------- */
+
+nav {
+    display: flex;
+    vertical-align: auto;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #724084;
+    color: #fcf3b4;
+    font-family: Home and Work, Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+    display: flex;
+    align-items: center;
+}
+
+.logonav {
+    width: 75px;
+    filter: drop-shadow(0 0 0.5rem black);
+}
+
+.titre_logo {
+    display: flex;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    flex: 1;
+}
+
+header li {
+    list-style-type: none;
+    display: flex;
+    padding: 20px;
+}
+
+.nav_links {
+    text-decoration: none;
+    color: #fcf3b4;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* --------BANNIERE ------------ */
+
+.banniere {
+    background-image: url(photos/banner2.png);
+    background-size: cover;
+    background-color: black;
+    background-repeat: no-repeat;
+    
+}
+
+.logobanniere {
+    width: 250px;
+    margin: 50px;
+    margin-left: 100px;
+    filter: drop-shadow(0 0 5rem black);
+}
+
+
