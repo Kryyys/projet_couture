@@ -1,31 +1,56 @@
+:root {
+    --font-titles: "Home and Work", sans-serif;
+    --background-dark: #724084;
+    --background-light: #e5d9e9;
+    --background-extra-light: #fcf3b4;
+}
+
 /*--------------------reset-----------------------*/
 
 * {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
 
-ol, ul {
-	list-style: none;
+ol,
+ul {
+    list-style: none;
 }
 
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after, q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /*--------------------fin du reset-----------------------*/
@@ -48,17 +73,19 @@ nav {
 .navbar {
     width: 100%;
     background-color: #724084;
-    color: #fcf3b4;
+    color: var(--background-extra-light);
     font-family: Home and Work, Arial, Helvetica, sans-serif;
     font-size: 2.5em;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.04em;
     display: flex;
     align-items: center;
+    height: 100px;
 }
 
 .logonav {
     width: 75px;
     filter: drop-shadow(0 0 0.5rem black);
+    padding-top: 10px;
 }
 
 .titre_logo {
@@ -80,9 +107,15 @@ header li {
 .nav_links {
     text-decoration: none;
     color: #fcf3b4;
+    padding: 20px;
 }
+
 a:hover {
     text-decoration: underline;
+}
+
+[title="Rechercher"] {
+    padding : 5px 20px 0 0;
 }
 
 /* --------BANNIERE ------------ */
@@ -92,7 +125,7 @@ a:hover {
     background-size: cover;
     background-color: black;
     background-repeat: no-repeat;
-    
+
 }
 
 .logobanniere {
@@ -102,4 +135,98 @@ a:hover {
     filter: drop-shadow(0 0 5rem black);
 }
 
+/* ------------- FOOTER ------------- */
+/* ------------- NEWSLETTER ------------- */
+#newsletter {
+    background-color: var(--background-light);
+    font-family: 'Gayathri', sans-serif;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 
+#newsletter p {
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+[type="email"] {
+    border-radius: 5px;
+    width: 200px;
+    color: #757375;
+    border: solid 1px #d0cfd0;
+    padding: 7px 0 2px 4px;
+}
+
+[type="submit"] {
+    border-radius: 8px;
+    width: 90px;
+    padding: 7px 0 2px 2px;
+    background-color: var(--background-dark);
+    color: var(--background-extra-light);
+}
+
+/* ------------- SOCIALS ------------- */
+
+#socials {
+    background-color: var(--background-extra-light);
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+
+#facebook {
+    padding: 0 150px 0 150px;
+}
+
+
+
+/* ------------- ABRORESCENCE ------------- */
+#nav_footer {
+    background-color: var(--background-dark);
+    color: var(--background-extra-light);
+    display: flex;
+    justify-content: space-between;
+    padding: 0  35px 0 35px;
+}
+
+
+h3 {
+    font-family: Home and Work;
+    color: var(--clr-titles);
+    font-size: 3em;
+}
+
+#nav_footer li {
+    font-family: "Gayathri", Arial;
+    padding: 5px 25px 5px 0;
+    color: var(--background-extra-light);
+} 
+
+#arborescence {
+    display: flex;
+    margin: 15px;
+}
+
+#arborescence div {
+    margin-right: 25px;
+}
+
+#nav_footer #coordonnees {
+    font-family: "Gayathri", Arial;
+    padding: 25px 100px 0 0;
+}
+
+#coordonnees p {
+    padding-bottom: 25px;
+}
+
+#arborescence a {
+    text-decoration: none;
+}
+
+#arborescence a:hover {
+    text-decoration: underline;
+    color: var(--background-extra-light);
+}
