@@ -105,9 +105,13 @@ header li {
 }
 
 .nav_links {
-    text-decoration: none;
+    /* text-decoration: none; */
     color: #fcf3b4;
     padding: 20px;
+}
+
+a {
+    text-decoration: none;
 }
 
 a:hover {
@@ -115,7 +119,7 @@ a:hover {
 }
 
 [title="Rechercher"] {
-    padding : 5px 20px 0 0;
+    padding: 5px 20px 0 0;
 }
 
 /* --------BANNIERE ------------ */
@@ -188,7 +192,7 @@ a:hover {
     color: var(--background-extra-light);
     display: flex;
     justify-content: space-between;
-    padding: 0  35px 0 35px;
+    padding: 0 35px 0 35px;
 }
 
 
@@ -202,7 +206,7 @@ h3 {
     font-family: "Gayathri", Arial;
     padding: 5px 25px 5px 0;
     color: var(--background-extra-light);
-} 
+}
 
 #arborescence {
     display: flex;
@@ -222,11 +226,6 @@ h3 {
     padding-bottom: 25px;
 }
 
-#arborescence a {
-    text-decoration: none;
-}
-
 #arborescence a:hover {
-    text-decoration: underline;
     color: var(--background-extra-light);
 }
