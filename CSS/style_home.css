@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Section 1 */
+
+.a_la_une {
+    background-color: var(--background-light);
+    width: 100%;
+    height: 615px;
+}
+
+.titre_une {
+    font-family: 'Home and Work';
+    color: var(--background-dark);
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+.container_une {
+    display: flex;
+    justify-content: center;
+}
+
+.card_une {
+    background-color: white;
+    border-radius: 5px;
+    width: 260px;
+    height: 365px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* Section 2 */
+
+.confectionner {
+    background-color: var(--background-dark);
+    width: 100%;
+    height: 510px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titre_confection {
+    font-family: 'Home and Work';
+    color: white;
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+.container_confection {
+    display: flex;
+    justify-content: center;
+}
+
+.card_confection {
+    background-color: white;
+    border-radius: 5px;
+    width: 289px;
+    height: 270px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* Section 3 */
+
