@@ -55,13 +55,15 @@ table {
 
 /*--------------------fin du reset-----------------------*/
 
-/* ------------ MARGIN BODY ???? ----------------- */
-/* body {
+/* ------------ MARGIN BODY  ----------------- */
+/* 
+ body {
     display: block;
-    margin-right: 100px;
-    margin-left: 100px;
-    background-color: #fcf3b4;
-} */
+    margin-right: 10%;
+    margin-left: 10%;
+    background-image: url();
+    
+}  */
 
 /* ------------- HEADER ------------- */
 
