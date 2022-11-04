@@ -13,7 +13,7 @@ main {
     font-family: 'Home and Work';
     color: black;
     text-align: center;
-    font-size: 5rem;
+    font-size: 6rem;
     padding: 35px;
 }
 
@@ -26,10 +26,12 @@ main {
 .text_tutovideo {
     font-family: "Gayathri";
     text-align: center;
-    margin: 50px;
+    padding: 50px;
     font-size: 1.4rem;
+    padding-bottom: 150px;
 }
 
 .liste_tuto {
-    list-style: circle;
+    list-style: disc;
+    list-style-position: inside;
 }
