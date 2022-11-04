@@ -17,6 +17,7 @@
     color: var(--background-dark);
     text-align: center;
     font-size: 3.5rem;
+    padding: 20px;
 }
 
 .container_une {
@@ -50,6 +51,7 @@
     color: white;
     text-align: center;
     font-size: 3.5rem;
+    padding: 20px;
 }
 
 .container_confection {
