@@ -1,0 +1,98 @@
+main {
+    background-color: var(--background-light);
+}
+
+
+/* ------------------TUTOS CARRES-------------------- */
+.container_tutos {
+    display: flex;
+
+    justify-content: space-evenly;
+
+    align-items: center;
+    flex-grow: 1;
+}
+.petitcontainer {
+    width: 100%;
+    height: 570px;
+    display: flex;
+    flex-direction:column;
+}
+
+.card_carre {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-image: url(../photos/tutos_tricot.webp);
+    background-color: white;
+    height: 290px;
+    width: 290px;
+    border-radius: 25px;
+    background-size: 190%;
+    background-position: 54% 100%;
+}
+
+.tutos_tricot {
+    background-color: rgba(255, 255, 255, 0.767);
+    border-radius: 0 0 25px 25px;
+    height: 30%;
+    width: 100%;
+    font-family: 'Home and Work', arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.tutos_tricot:hover {
+    background-color: rgba(255, 255, 255, 0.593);
+    transition: background-color 0.15s linear;    
+}
+
+/* ------------------TUTOS RECTANGLE-------------------- */
+
+
+.grandcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+
+.card_tuto {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-image: url(../photos/nounours.jpg);
+    height: 311px;
+    width: 951px;
+    border-radius: 25px;
+    background-size: 100%;
+    background-position: 40% 50%;
+    margin: 30px;
+}
+
+.lien_tous_nos_tutos {
+    background-color: rgba(255, 255, 255, 0.767);
+    border-radius: 0 25px 25px 0;
+    height: 100%;
+    width: 30%;
+    font-family: 'Home and Work', arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 7em;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+.lien_tous_nos_tutos:hover {
+    background-color: rgba(255, 255, 255, 0.593);
+    transition: background-color 0.15s linear;    
+}

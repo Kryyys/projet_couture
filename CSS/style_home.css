@@ -100,11 +100,39 @@
 }
 
 .card_tuto {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-image: url(../photos/tutos_tricot.webp);
     background-color: white;
-    border-radius: 30px;
-    width: 290px;
     height: 290px;
+    width: 290px;
+    border-radius: 25px;
+    background-size: 190%;
+    background-position: 54% 100%;
 }
+
+.tutos_tricot {
+    background-color: rgba(255, 255, 255, 0.767);
+    border-radius: 0 0 25px 25px;
+    height: 30%;
+    width: 100%;
+    font-family: 'Home and Work', arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.tutos_tricot:hover {
+    background-color: rgba(255, 255, 255, 0.593);
+    transition: background-color 0.15s linear;    
+}
+
+
 /* Section 4 */
 .planning{
     background-color: var(--background-dark);
