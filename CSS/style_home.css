@@ -57,19 +57,39 @@
     padding: 20px;
 }
 
-.container_confection {
+/* .container_confection {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     
     flex-grow: 1;
-}
-
+} */
+/* 
 .card_confection {
     background-color: white;
     border-radius: 15px;
     width: 289px;
     height: 270px;
+} */
+
+.container_confectionner {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.card_confectionner {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-image: url(../photos/tutos_tricot.webp);
+    background-color: white;
+    height: 290px;
+    width: 290px;
+    border-radius: 25px;
+    background-size: 190%;
+    background-position: 54% 100%;
 }
 
 /* Section 3 */
