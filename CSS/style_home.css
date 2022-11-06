@@ -15,11 +15,12 @@
 }
 
 .titre_une {
-    font-family: 'Home and Work';
+    font-family: 'Home and Work', Helvetica, sans-serif;
     color: var(--background-dark);
     text-align: center;
     font-size: 3.5rem;
     padding: 20px;
+    filter: var(--drop-shadow-global);
 }
 
 .container_une {
@@ -37,6 +38,7 @@
     margin-bottom: 50px;
     margin-left: 50px;
     margin-right: 50px;
+    filter: var(--drop-shadow-article);
 }
 
 /* Section 2 */
@@ -47,36 +49,23 @@
     height: 510px;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly ;
+
 }
 
 .titre_confection {
-    font-family: 'Home and Work';
-    color: white;
+    font-family: 'Home and Work', Helvetica, sans-serif;
+    color: var(--background-extra-light);
     text-align: center;
     font-size: 3.5rem;
-    padding: 20px;
+    filter: var(--drop-shadow-global);
+    line-height: 0.5;
 }
-
-/* .container_confection {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    
-    flex-grow: 1;
-} */
-/* 
-.card_confection {
-    background-color: white;
-    border-radius: 15px;
-    width: 289px;
-    height: 270px;
-} */
 
 .container_confectionner {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    flex-grow: 1;
 }
 
 .card_confectionner {
@@ -90,6 +79,7 @@
     border-radius: 25px;
     background-size: 190%;
     background-position: 54% 100%;
+    filter: var(--drop-shadow-global);
 }
 
 /* Section 3 */
@@ -103,24 +93,22 @@
 }
 
 .titre_tutos {
-    font-family: 'Home and Work';
+    font-family: 'Home and Work', Helvetica, sans-serif;
     color: var(--background-dark);
     text-align: center;
     font-size: 3.5rem;
     padding: 20px;
+    filter: var(--drop-shadow-global);
 }
 
 .container_tutos {
     display: flex;
-
-    justify-content: space-evenly;
-
+    justify-content: center;
     align-items: center;
-    flex-grow: 1;
 }
 
 .card_tuto {
-    display: flex;
+     display: flex;
     align-items: flex-end;
     justify-content: center;
     background-image: url(../photos/tutos_tricot.webp);
@@ -130,6 +118,8 @@
     border-radius: 25px;
     background-size: 190%;
     background-position: 54% 100%;
+    filter: var(--drop-shadow-global);
+    margin: 0 2.5rem 0 2.5rem;
 }
 
 .tutos_tricot {
@@ -144,7 +134,6 @@
     font-size: 3em;
     color: black;
     text-decoration: none;
-    
 }
 
 .tutos_tricot:hover {
@@ -152,8 +141,8 @@
     transition: background-color 0.15s linear;    
 }
 
-
 /* Section 4 */
+
 .planning{
     background-color: var(--background-dark);
     width: 100%;
@@ -162,11 +151,12 @@
     flex-direction:column;}
 
 .titre_planning {
-        font-family: 'Home and Work', Helvetica, arial, sans-serif;
-        color: white;
+        font-family: 'Home and Work', Helvetica, sans-serif;
+        color: var(--background-extra-light);
         text-align: center;
         font-size: 3.5rem;
         padding: 20px;
+        filter: var(--drop-shadow-global);
     }
 
 .container_planning{
@@ -176,11 +166,5 @@
 }
 
 .img_planning{
-    width: 80%;
-    border-radius:  10px;
-    width: 260px;
-    height: 365px;
-    margin-bottom: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
+    height: 60%;
 }
