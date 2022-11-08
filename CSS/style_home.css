@@ -85,17 +85,19 @@ main {
     filter: var(--drop-shadow-global);
 }
 
-.photo_tricot {
-    background-image: url(../photos/tutos_tricot.webp);
+.photo_halloween {
+    background-image: url(../photos/robe_halloween.png);
+    background-size: contain;
 }
 
-.photo_couture {
-    background-image: url(../photos/tuto_couture_card.jpeg);
+.photo_hochet {
+    background-image: url(../photos/hochets_animaux.png);
+    background-size: contain;
 }
 
-.photo_crochet {
-    background-image: url(../photos/tuto_crochet_card.jpg);
-    background-size: cover;
+.photo_ours {
+    background-image: url(../photos/ours_amigurumi.png);
+    background-size: contain;
 }
 
 /* Section 3 */
@@ -155,6 +157,20 @@ main {
 .tutos_tricot:hover {
     background-color: rgba(255, 255, 255, 0.593);
     transition: background-color 0.15s linear;    
+}
+
+
+.photo_tricot {
+    background-image: url(../photos/tutos_tricot.webp);
+}
+
+.photo_couture {
+    background-image: url(../photos/tuto_couture_card.jpeg);
+}
+
+.photo_crochet {
+    background-image: url(../photos/tuto_crochet_card.jpg);
+    background-size: cover;
 }
 
 /* Section 4 */
