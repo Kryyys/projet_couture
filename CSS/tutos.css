@@ -21,7 +21,7 @@ main {
 }
 
 h1 {
-    filter: drop-shadow(4px 7px 6px rgb(150, 148, 148))
+    filter: drop-shadow(4px 7px 6px rgb(0, 0, 0))
 
 }
 
@@ -44,7 +44,6 @@ h1 {
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    background-image: url(../photos/tutos_tricot.webp);
     background-color: white;
     height: 290px;
     width: 290px;
@@ -72,6 +71,19 @@ h1 {
 .tutos_tricot:hover {
     background-color: rgba(255, 255, 255, 0.593);
     transition: background-color 0.15s linear;    
+}
+
+.photo_tricot {
+    background-image: url(../photos/tutos_tricot.webp);
+}
+
+.photo_couture {
+    background-image: url(../photos/tuto_couture_card.jpeg);
+}
+
+.photo_crochet {
+    background-image: url(../photos/tuto_crochet_card.jpg);
+    background-size: cover;
 }
 
 /* ------------------TUTOS RECTANGLE-------------------- */
@@ -112,7 +124,6 @@ h1 {
     color: black;
     text-decoration: none;
     text-align: center;
-    
 }
 
 .lien_tous_nos_tutos:hover {

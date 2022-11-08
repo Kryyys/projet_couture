@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+main {
+    filter: drop-shadow(0px 5px 5px rgb(150, 148, 148));
+}
+
 /* Section 1 */
 
 .a_la_une {
@@ -72,7 +76,6 @@
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    background-image: url(../photos/tutos_tricot.webp);
     background-color: white;
     height: 290px;
     width: 290px;
@@ -80,6 +83,19 @@
     background-size: 190%;
     background-position: 54% 100%;
     filter: var(--drop-shadow-global);
+}
+
+.photo_tricot {
+    background-image: url(../photos/tutos_tricot.webp);
+}
+
+.photo_couture {
+    background-image: url(../photos/tuto_couture_card.jpeg);
+}
+
+.photo_crochet {
+    background-image: url(../photos/tuto_crochet_card.jpg);
+    background-size: cover;
 }
 
 /* Section 3 */
@@ -108,7 +124,7 @@
 }
 
 .card_tuto {
-     display: flex;
+    display: flex;
     align-items: flex-end;
     justify-content: center;
     background-image: url(../photos/tutos_tricot.webp);
@@ -151,13 +167,13 @@
     flex-direction:column;}
 
 .titre_planning {
-        font-family: 'Home and Work', Helvetica, sans-serif;
-        color: var(--background-extra-light);
-        text-align: center;
-        font-size: 3.5rem;
-        padding: 20px;
-        filter: var(--drop-shadow-global);
-    }
+    font-family: 'Home and Work', Helvetica, sans-serif;
+    color: var(--background-extra-light);
+    text-align: center;
+    font-size: 3.5rem;
+    padding: 20px;
+    filter: var(--drop-shadow-global);
+}
 
 .container_planning{
     display: flex;
