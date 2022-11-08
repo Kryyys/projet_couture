@@ -100,6 +100,15 @@ main {
     background-size: contain;
 }
 
+#citrouille {
+    transform: translateX(-23px) translateY(-10px);
+}
+
+/* J'ai dû rajouter un marging à gauche parce que la citrouille faisait dévier le titre à gauche */
+.marging_titre {
+    margin-left : 35px;
+}
+
 /* Section 3 */
 
 .tutos {
