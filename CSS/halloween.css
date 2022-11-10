@@ -1,0 +1,41 @@
+.titre_section {
+    font-family: 'Home and Work', Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 4.5rem;
+    padding: 20px;
+    filter: var(--drop-shadow-global);
+}
+
+.titre_halloween {
+    font-family: 'Home and Work', Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 6rem;
+    padding: 20px;
+    filter: var(--drop-shadow-global);
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 300px 50px 300px;
+}
+
+.photos {
+    background-size: cover;
+}
+
+.card_confectionner {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    border-radius: 25px;
+    background-image: url(../photos/chauve_souris.jpg);
+    background-size: cover;
+    background-position: 54% 100%;
+    filter: var(--drop-shadow-global);
+}
