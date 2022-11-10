@@ -15,7 +15,7 @@ main {
     width: 100%;
     height: 615px;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
 }
 
 .titre_une {
@@ -36,7 +36,7 @@ main {
 
 .card_une {
     background-color: white;
-    border-radius:  10px;
+    border-radius: 10px;
     width: 260px;
     height: 365px;
     margin-bottom: 50px;
@@ -53,7 +53,7 @@ main {
     height: 510px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly ;
+    justify-content: space-evenly;
 
 }
 
@@ -111,7 +111,7 @@ main {
 
 /* J'ai dû rajouter un marging à gauche parce que la citrouille faisait dévier le titre à gauche */
 .marging_titre {
-    margin-left : 35px;
+    margin-left: 35px;
 }
 
 /* Section 3 */
@@ -121,7 +121,7 @@ main {
     width: 100%;
     height: 500px;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
 }
 
 .titre_tutos {
@@ -171,7 +171,7 @@ main {
 
 .tutos_tricot:hover {
     background-color: rgba(255, 255, 255, 0.593);
-    transition: background-color 0.15s linear;    
+    transition: background-color 0.15s linear;
 }
 
 
@@ -188,14 +188,15 @@ main {
     background-size: cover;
 }
 
-/* Section 4 */
+/* Section 4 PLANNING */
 
-.planning{
+.planning {
     background-color: var(--background-dark);
     width: 100%;
-    height:550px;
+    height: 550px;
     display: flex;
-    flex-direction:column;}
+    flex-direction: column;
+}
 
 .titre_planning {
     font-family: 'Home and Work', Helvetica, sans-serif;
@@ -206,12 +207,12 @@ main {
     filter: var(--drop-shadow-global);
 }
 
-.container_planning{
+.container_planning {
     display: flex;
     justify-content: center;
     align-content: center;
 }
 
-.img_planning{
-    height: 60%;
+.img_planning {
+    height: 70%;
 }
