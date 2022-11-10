@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container_titre{
+    height: 75px;
+    background-color: var( --background-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-family: var( --font-titles);
+    font-size: 5rem;
+    color: var(--background-extra-light);
+    filter: var(--drop-shadow-global);
+}
