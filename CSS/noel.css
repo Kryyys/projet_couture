@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .titre_section {
     font-family: 'Home and Work', Helvetica, sans-serif;
     color: black;
