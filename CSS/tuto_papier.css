@@ -3,3 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+main {
+    background-color: var(--background-light);
+}
+
+.titre_tuto {
+    font-family: 'Home and Work';
+    color: black;
+    text-align: center;
+    font-size: 6rem;
+    padding: 35px;
+}
+
+/* ------ IMAGES ------ */
+
+.image_trousse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section > img {
+    width: 1000px;
+    height: 600px;
+}
