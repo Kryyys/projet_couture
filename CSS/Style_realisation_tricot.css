@@ -17,3 +17,60 @@ h2{
     color: var(--background-extra-light);
     filter: var(--drop-shadow-global);
 }
+
+.container_card{
+    background-color: var(--background-light);
+    display: flex ;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+}
+.card_ourson{
+    width: 750px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 25px;
+    background-image: url(../photos/gros-ourson.jpg);
+    background-size: cover;
+}
+
+.bandeau{
+    width: 300px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.793);
+    border-radius: 20px 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    justify-content: center;
+    position: relative;
+}
+
+.titre_card{
+    font-family: var(--font-titles);
+    font-size: 4rem;
+    color: var(--background-dark);
+    position: absolute;
+    top: 10px;
+    margin-left: 30px;
+}
+.date{
+    font-family: var(--font-content);
+    font-size: 1rem;
+    text-align: left;
+    margin-left: 35px;
+    position: absolute;
+    top: 80px;
+}
+
+.listing_level{
+    list-style: disc;
+    font-family: var(--font-content);
+    font-size: 1rem;
+    text-align: left;
+    margin-left: 35px;
+    
+}
+
+
