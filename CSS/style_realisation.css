@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+main {
+    text-shadow: var(--text-shadow-h1);
+}
 /* ---------TITRE-------- */
 .container_titre{
     height: 160px;
@@ -10,7 +14,7 @@
     font-family: var( --font-titles);
     font-size: 6rem;
     color: var(--background-light);
-    filter: var(--drop-shadow-global);
+    text-shadow: var(--text-shadow-noir);
     display: flex;
     justify-content: center;
     align-items: center;

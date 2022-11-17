@@ -6,7 +6,8 @@
     --background-extra-light: #fcf3b4;
     --drop-shadow-global: drop-shadow(0px 4px 30px #000000b8);
     --drop-shadow-article: drop-shadow(0px 4px 30px #00000020);
-    --text-shadow-h1: 0px 4px 30px #000000c3;
+    --text-shadow-h1: 0px 4px 3px #a9a9a9c3;
+    --text-shadow-noir: 0px 4px 3px #000000c3;
 
     
 }
