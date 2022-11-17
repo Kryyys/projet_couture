@@ -1,0 +1,73 @@
+h1 {
+    background-color: var(--background-dark);
+    font-family: var(--font-titles);
+    color: var(--background-extra-light);
+    text-align: center;
+    font-size: 4.5rem;
+    padding: 20px;
+    text-shadow: var(--text-shadow-h1);
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    gap: 100px;
+    padding: 50px;
+    place-items: center;
+    background-color: var(--background-light);
+}
+
+
+/* ------------------CARDS-------------- */
+
+.card {
+    filter: var(--drop-shadow-article);
+}
+
+.photo_trousse {
+    background-image: url(../photos/petite_trousse.png);
+    width: 499px;
+    height: 334px;
+    border-radius: 30px 30px 0 0;
+}
+
+.photo_pochon {
+    background-image: url(../photos/petit_pochon.png);
+    width: 499px;
+    height: 334px;
+    border-radius: 30px 30px 0 0;
+
+}
+
+.photo_grenouillere {
+    background-image: url(../photos/grenouillere.png);
+    width: 499px;
+    height: 334px;
+    border-radius: 30px 30px 0 0;
+
+}
+
+.photo_top_enfant {
+    background-image: url(../photos/top_enfant.png);
+    width: 499px;
+    height: 334px;
+    border-radius: 30px 30px 0 0;
+}
+
+.description_tuto {
+    background-color: var(--background-extra-light);
+    width: 499px;
+    border-radius: 0 0 20px 20px;
+}
+
+.description_tuto h2 {
+    font-family: 'Home and Work';
+    font-size: 5rem;
+}
+
+.description_tuto p {
+    font-family: 'Gayathri', Helvetica;
+    font-size: 1.2rem;
+    padding-bottom: 30px;
+}
