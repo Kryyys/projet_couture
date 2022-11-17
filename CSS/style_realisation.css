@@ -10,6 +10,7 @@
     font-family: var( --font-titles);
     font-size: 6rem;
     color: var(--background-light);
+    filter: var(--drop-shadow-global);
     display: flex;
     justify-content: center;
     align-items: center;
