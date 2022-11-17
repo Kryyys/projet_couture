@@ -1,16 +1,17 @@
-/* -------------------------------
--------- NOTRE ASSOCIATION--------
--------------------------------- */
-
-h1.association {
+h1 {
     background-color: var(--background-dark);
     font-family: var(--font-titles);
     color: var(--background-extra-light);
     text-align: center;
     font-size: 4.5rem;
     padding: 20px;
-    text-shadow: var(--drop-shadow-global);
-}
+    text-shadow: var(--text-shadow-h1);}
+
+/* -------------------------------
+-------- NOTRE ASSOCIATION--------
+-------------------------------- */
+
+
 
 section.association {
     font-family: 'Gayathri', 'Helvetica';
@@ -28,7 +29,8 @@ section.association {
     align-items: center;
 }
 
-img.membres, img.cours_couture {
+img.membres,
+img.cours_couture {
     border-radius: 40px;
     border: 4px solid black;
     width: 100%;
@@ -52,16 +54,6 @@ img.membres, img.cours_couture {
 -------- NOS FONDATEURS-----------
 -------------------------------- */
 
-h1.fondateurs {
-    background-color: var(--background-dark);
-    font-family: var(--font-titles);
-    color: var(--background-extra-light);
-    text-align: center;
-    font-size: 4.5rem;
-    padding: 20px;
-    text-shadow: var(--drop-shadow-global);
-}
-
 section.fondateurs {
     display: flex;
     justify-content: space-evenly;
@@ -73,7 +65,8 @@ section.fondateurs {
 .card_fondatrices {
     background-color: var(--background-light);
     border-radius: 130px;
-    width: 30%;
+    width: 40%;
+    height: 530px;
 }
 
 .bandeau {
@@ -84,13 +77,61 @@ section.fondateurs {
 }
 
 .photos_fondatrices {
-    width: 80%;
+    width: 70%;
+    margin-right: 25px;
 }
 
 .bandeau h2 {
     font-family: var(--font-titles);
-    font-size: 3rem;
+    font-size: 4rem;
+    padding-bottom: 10px;
 }
 
-p {
+.bandeau p {
+    font-size: 1.4rem;
+}
+
+.description_fondatrice {
+    padding: 30px;
+    font-size: .9rem;
+    line-height: 1.2rem;
+}
+
+.description_fondatrice p {
+    padding-bottom: 10px;
+    text-align: justify;
+    letter-spacing: .1rem;
+}
+
+/* -------------------------------
+-------- NOS MEMBRES -------------
+-------------------------------- */
+
+
+.nos_membres {
+    background-color: var(--background-extra-light);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
+    padding-left: 10%;
+}
+
+.card_membre {
+    display: flex;
+    align-items: center;
+    margin: 40px;
+}
+
+.card_membre img {
+    width: 30%;
+}
+
+.card_membre h2 {
+    font-family: 'Home and Work', Helvetica;
+    font-size: 4rem;
+}
+
+.card_membre p {
+    font-family: 'Gayathri', Helvetica;
+    font-size: 1.5rem;
 }
