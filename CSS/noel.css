@@ -55,9 +55,6 @@ main {
     height: 400px;
     width: 400px;
     border-radius: 25px;
-    background-image: url(../photos/coeur-noel.jpg);
-    background-size: cover;
-    background-position: 54% 100%;
     filter: var(--drop-shadow-global);
 }
 
