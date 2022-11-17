@@ -20,8 +20,15 @@ main {
 
 .image_trousse {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Gayathri', arial;
+}
+
+.image_trousse > p {
+    padding: 15px;
+    text-align: center;
 }
 
 section > img {
