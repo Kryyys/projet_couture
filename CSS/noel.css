@@ -4,6 +4,21 @@
     box-sizing: border-box;
 }
 
+main {
+    background-image: url(../photos/background-noel.jpg);
+    background-size: contain;
+    padding-bottom: 50px;
+    filter: drop-shadow(0px 5px 5px rgb(107, 106, 106));
+}
+
+.banniere_noel {
+    background-image: url(../photos/banniere-noel.png);
+    background-size: cover;
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    opacity: 0.8;
+}
+
 .titre_section {
     font-family: 'Home and Work', Helvetica, sans-serif;
     color: black;
@@ -40,8 +55,35 @@
     height: 400px;
     width: 400px;
     border-radius: 25px;
-    background-image: url(../photos/coeur-noel.jpg);
-    background-size: cover;
-    background-position: 54% 100%;
     filter: var(--drop-shadow-global);
+}
+
+.card_1 {
+    background-image: url(../photos/card-noel-1.png);
+    background-size: cover;
+}
+
+.card_2 {
+    background-image: url(../photos/card-noel-2.png);
+    background-size: cover;
+}
+
+.card_3 {
+    background-image: url(../photos/card-noel-3.png);
+    background-size: cover;
+}
+
+.card_4 {
+    background-image: url(../photos/card-noel-4.png);
+    background-size: cover;
+}
+
+.card_5 {
+    background-image: url(../photos/card-noel-5.png);
+    background-size: cover;
+}
+
+.card_6 {
+    background-image: url(../photos/card-noel-6.png);
+    background-size: cover;
 }
