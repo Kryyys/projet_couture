@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 /* ---------TITRE-------- */
+.background_main{
+    background-color: var(--background-light);
+    height: 1300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .container_titre{
     height: 160px;
     background-color: var( --background-dark);
@@ -19,14 +27,13 @@
 /* ---------CARDS-------- */
 
 .container_card{
-    height: 1500px;
-    background-color: var(--background-light);
+    width: 80%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 2fr;
-    justify-items:center;
     padding: 50px;
-    gap: 20px;
+    gap: 20px 0;
+    justify-content: center;
 }
 
 .card_real {
@@ -40,7 +47,6 @@
     background-size: 190%;
     background-position: 54% 100%;
     filter: var(--drop-shadow-global);
-    margin: 20px;
     }
 
 
@@ -64,7 +70,7 @@
         justify-content: center;
         background-color: white;
         height: 290px;
-        width: 1041px;
+        width:100%;
         border-radius: 25px;
         background-size: 190%;
         background-position: 54% 100%;
@@ -80,10 +86,12 @@
     .photo_couture {
         background-image: url(../photos/real_couture.jpg);
         background-size: cover;
+  
     }
     .photo_tricot {
         background-image: url(../photos/real_trico.jpeg);
         background-size: cover;
+        justify-self: end;
     }
     .photo_tricot {
         background-image: url(../photos/tuto_crochet_card.jpg);
@@ -92,6 +100,7 @@
     .photo_halloween {
         background-image: url(../photos/real_halloween.png);
         background-size: cover;
+        justify-self: end;
     }
     .photo_noel {
         background-image: url(../photos/Real_noel.jpg);
@@ -100,6 +109,7 @@
     .photo_real {
         background-image: url(../photos/Toute_real.png);
         background-size: cover;
+        justify-self: end;
     }
     .photo_paques {
         background-image: url(../photos/Real_paque.png);
