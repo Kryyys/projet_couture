@@ -25,7 +25,7 @@ main {
     text-align: center;
     font-size: 4.5rem;
     padding: 20px;
-    filter: var(--drop-shadow-global);
+    text-shadow: var(--text-shadow-h1);
 }
 
 .titre_noel {
@@ -34,7 +34,7 @@ main {
     text-align: center;
     font-size: 6rem;
     padding: 20px;
-    filter: var(--drop-shadow-global);
+    text-shadow: var(--text-shadow-h1);
 }
 
 .cards {
@@ -54,7 +54,7 @@ main {
     background-color: white;
     height: 400px;
     width: 400px;
-    border-radius: 25px;
+    border-radius: 35px;
     filter: var(--drop-shadow-global);
 }
 

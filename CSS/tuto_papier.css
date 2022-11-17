@@ -17,6 +17,7 @@ main {
     text-align: center;
     font-size: 6rem;
     padding: 35px;
+    text-shadow: var(--text-shadow-h1);
 }
 
 /* ------ IMAGES ------ */
