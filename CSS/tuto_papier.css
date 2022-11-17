@@ -67,3 +67,27 @@ main {
     margin: 50px;
 }
 
+
+/* ----- MEDIA QUERIES ------ */
+
+@media screen and (max-width:691px) {
+
+    .titre_tuto {
+        font-size: 5.5rem;
+    }
+
+    .photo_haut {
+        width: 80%;
+        height: auto;
+    }
+
+    .tuto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+}
