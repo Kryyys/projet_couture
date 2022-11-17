@@ -70,7 +70,24 @@ h2{
     font-size: 1rem;
     text-align: left;
     margin-left: 35px;
-    
 }
 
+.card_tortue{
+    width: 750px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 25px;
+    background-image: url(../photos/Tortue.png);
+    background-size: cover;
+}
 
+.card_chat{
+    width: 750px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 25px;
+    background-image: url(../photos/Chat.png);
+    background-size: cover;
+}
