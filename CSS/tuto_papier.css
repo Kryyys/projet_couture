@@ -5,7 +5,10 @@
 }
 
 main {
+    font-family: 'Gayathri', arial;
+    font-size: 1.3rem;
     background-color: var(--background-light);
+    filter: drop-shadow(0px 5px 5px rgb(107, 106, 106));
 }
 
 .titre_tuto {
@@ -23,7 +26,6 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Gayathri', arial;
 }
 
 .image_trousse > p {
@@ -31,7 +33,36 @@ main {
     text-align: center;
 }
 
-section > img {
+.photo_haut {
     width: 1000px;
     height: 600px;
+    margin-bottom: 30px;
 }
+
+.tuto {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 100px 20px 100px;
+
+}
+
+.images > img {
+    width: 450px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 100px 20px 100px;
+}
+
+.texte {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 800px;
+}
+
+.texte_padding {
+    margin: 50px;
+}
+
