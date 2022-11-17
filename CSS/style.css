@@ -8,7 +8,7 @@
     --drop-shadow-article: drop-shadow(0px 4px 30px #00000020);
     --text-shadow-h1: 0px 4px 30px #000000c3;
 
-    
+
 }
 
 /*--------------------reset-----------------------*/
@@ -61,17 +61,7 @@ table {
 
 /*--------------------fin du reset-----------------------*/
 
-/* ------------ MARGIN BODY  ----------------- */
-/* 
- body {
-    display: block;
-    margin-right: 10%;
-    margin-left: 10%;
-    background-image: url();
-    
-}  */
 
-/* ------------- HEADER ------------- */
 
 nav {
     display: flex;
@@ -100,6 +90,10 @@ nav {
     display: flex;
     align-items: center;
 }
+
+/* [type="checkbox"] {
+    display: none;
+} */
 
 header ul {
     display: flex;
@@ -238,4 +232,218 @@ h3 {
 
 #arborescence a:hover {
     color: var(--background-extra-light);
+}
+
+
+
+
+
+
+
+
+/* --------------------------------------------------------
+-----------------------------------------------------------
+-----------------------MEDIA QUERY-------------------------
+-----------------------------------------------------------
+-------------------------------------------------------- */
+
+
+
+@media screen and (max-width: 691px) {
+
+/* ------------- HEADER ------------- */
+
+nav {
+    display: flex;
+    vertical-: auto;
+}
+
+.navbar {
+    width: 100%;
+    font-size: 2.5em;
+    letter-spacing: 0.04em;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.logonav {
+    width: 75px;
+    padding-top: 10px;
+}
+
+.titre_logo {
+    display: flex;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    flex: 1;
+}
+
+header li {
+    list-style-type: none;
+    display: flex;
+    padding: 20px;
+}
+
+.nav_links {
+    display: none;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+[title="Rechercher"] {
+    padding: 5px 20px 0 0;
+    display: none;
+}
+
+
+/*--------------------BURGER MENU---------------------------
+------------------------------------------------------------
+--------------------------------------------------------- */
+
+
+
+
+.line {
+    width: 40px;
+    height: 5px;
+    background-color: var(--background-extra-light);
+    margin-bottom: 3px;
+    border-radius: 8%;
+}
+
+label {
+    cursor: pointer;
+}
+
+[type="checkbox"]:checked~li {
+    display: block;
+ }
+
+
+
+ 
+
+
+/* --------BANNIERE ------------ */
+
+.banniere {
+    background-image: url(../photos/banner2.png);
+    background-size: cover;
+    background-color: black;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 250px;
+}
+
+.logobanniere {
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+    margin : 0 0 0 0;
+}
+
+/* ------------- FOOTER ------------- */
+/* ------------- NEWSLETTER ------------- */
+#newsletter {
+    background-color: var(--background-light);
+    font-family: 'Gayathri', sans-serif;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#newsletter p {
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+[type="email"] {
+    border-radius: 5px;
+    width: 200px;
+    color: #757375;
+    border: solid 1px #d0cfd0;
+    padding: 7px 0 2px 4px;
+}
+
+[type="submit"] {
+    border-radius: 8px;
+    width: 90px;
+    padding: 7px 0 2px 2px;
+    background-color: var(--background-dark);
+    color: var(--background-extra-light);
+}
+
+/* ------------- SOCIALS ------------- */
+
+#socials {
+    background-color: var(--background-extra-light);
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+
+#facebook {
+    padding: 0 150px 0 150px;
+}
+
+
+
+/* ------------- ABRORESCENCE ------------- */
+#nav_footer {
+    background-color: var(--background-dark);
+    color: var(--background-extra-light);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 35px 0 35px;
+}
+
+
+h3 {
+    font-family: Home and Work;
+    color: var(--clr-titles);
+    font-size: 3em;
+}
+
+#nav_footer li {
+    font-family: "Gayathri", Arial;
+    padding: 5px 25px 5px 0;
+    color: var(--background-extra-light);
+}
+
+#arborescence {
+    display: flex;
+    margin: 15px;
+}
+
+#arborescence div {
+    margin-right: 25px;
+}
+
+#nav_footer #coordonnees {
+    font-family: "Gayathri", Arial;
+    padding: 25px 100px 0 0;
+}
+
+#coordonnees p {
+    padding-bottom: 25px;
+}
+
+#arborescence a:hover {
+    color: var(--background-extra-light);
+}
 }
