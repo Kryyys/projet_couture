@@ -44,3 +44,11 @@ main {
     list-style: disc;
     list-style-position: inside;
 }
+
+@media screen and (max-width:691px) {
+
+
+    .titre_tuto {
+        font-size: 4.5rem;
+    }
+}
