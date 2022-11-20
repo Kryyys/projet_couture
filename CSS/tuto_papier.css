@@ -5,6 +5,7 @@
 }
 
 main {
+    width: 100vw;
     font-family: 'Gayathri', arial;
     font-size: 1.3rem;
     background-color: var(--background-light);
@@ -60,7 +61,7 @@ main {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    width: 800px;
+    /* width: 800px; */
 }
 
 .texte_padding {
@@ -72,13 +73,18 @@ main {
 
 @media screen and (max-width:691px) {
 
+
     .titre_tuto {
         font-size: 5.5rem;
     }
 
-    .photo_haut {
+    .photo_haut, .images > img {
         width: 80%;
         height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
     }
 
     .tuto {
@@ -88,6 +94,20 @@ main {
         align-items: center;
     }
 
+    .texte_padding {
+        margin: 0;
+    }
 
+    .tuto {
+        padding: 20px 20px 20px 20px;
+    }
+
+    .images > img {
+        width: 450px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin: 20px 10px 20px 10px;
+    }
 
 }
