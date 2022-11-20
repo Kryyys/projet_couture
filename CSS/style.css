@@ -255,7 +255,7 @@ h3 {
         grid-template-rows: repeat(2, 1fr);
         grid-template-columns: repeat(2, 1fr);
         align-items:center;
-        padding-left: 8%;
+        padding-left: 15%;
     }
 
     #coordonnees {
