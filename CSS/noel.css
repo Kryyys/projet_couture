@@ -87,3 +87,13 @@ main {
     background-image: url(../photos/card-noel-6.png);
     background-size: cover;
 }
+
+/* ----- MADIA QUERIES ------ */
+
+@media screen and (max-width:691px) {
+
+    main, .cards {
+        display: flex;
+        flex-direction: column;
+    }
+}

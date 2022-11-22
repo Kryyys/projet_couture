@@ -373,6 +373,7 @@ label {
     z-index: 2;
     margin : 0 0 0 0;
 }
+}
 
 /* ------------- FOOTER ------------- */
 /* ------------- NEWSLETTER ------------- */
@@ -464,7 +465,7 @@ h3 {
 #arborescence a:hover {
     color: var(--background-extra-light);
 }
-=======
+
 /* ----- RESPONSIVE FOOTER ----- */
 
 @media screen and (max-width:691px) {
@@ -492,4 +493,4 @@ h3 {
     #nav_footer #coordonnees {
         padding: 0px;
     }
-    
+}
