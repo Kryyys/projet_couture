@@ -4,18 +4,20 @@
     box-sizing: border-box;
 }
 
+main {
+    filter: drop-shadow(0px 5px 5px rgb(150, 148, 148));
+}
+
 .container_titre{
-    height: 75px;
+    height: 100px;
     background-color: var( --background-dark);
     display: flex;
     justify-content: center;
     align-items: center;
-}
-h2{
+    text-shadow: var(--text-shadow-noir);
     font-family: var( --font-titles);
     font-size: 5rem;
     color: var(--background-extra-light);
-    filter: var(--drop-shadow-global);
 }
 
 .container_card{

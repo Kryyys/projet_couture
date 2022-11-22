@@ -3,14 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+main {
+    text-shadow: var(--text-shadow-h1);
+}
 /* ---------TITRE-------- */
+.background_main{
+    background-color: var(--background-light);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .container_titre{
     height: 160px;
     background-color: var( --background-dark);
     font-family: var( --font-titles);
     font-size: 6rem;
     color: var(--background-light);
-    filter: var(--drop-shadow-global);
+    text-shadow: var(--text-shadow-noir);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,14 +30,13 @@
 /* ---------CARDS-------- */
 
 .container_card{
-    height: 1500px;
-    background-color: var(--background-light);
+    width: 80%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 2fr;
-    justify-items:center;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     padding: 50px;
-    gap: 20px;
+    gap: 40px 0;
+    justify-content: center;
 }
 
 .card_real {
@@ -40,9 +50,7 @@
     background-size: 190%;
     background-position: 54% 100%;
     filter: var(--drop-shadow-global);
-    margin: 20px;
     }
-
 
 .bandeau_card {
         background-color: rgba(255, 255, 255, 0.767);
@@ -64,7 +72,7 @@
         justify-content: center;
         background-color: white;
         height: 290px;
-        width: 1041px;
+        width:100%;
         border-radius: 25px;
         background-size: 190%;
         background-position: 54% 100%;
@@ -72,6 +80,22 @@
         grid-column: 1 / span 2;
         }
 
+        .text_bandeau {
+            text-align: center;
+            font-family: var(--font-content);
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+        }
+    
+        .container_text{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+            /* ---------FIN-CARDS-------- */
+
+                /* PHOTO CARDS */
     .photo_crochet {
         background-image: url(../photos/real_crochet.png);
         background-size: cover;
@@ -80,10 +104,12 @@
     .photo_couture {
         background-image: url(../photos/real_couture.jpg);
         background-size: cover;
+  
     }
     .photo_tricot {
         background-image: url(../photos/real_trico.jpeg);
         background-size: cover;
+        justify-self: end;
     }
     .photo_tricot {
         background-image: url(../photos/tuto_crochet_card.jpg);
@@ -92,6 +118,7 @@
     .photo_halloween {
         background-image: url(../photos/real_halloween.png);
         background-size: cover;
+        justify-self: end;
     }
     .photo_noel {
         background-image: url(../photos/Real_noel.jpg);
@@ -100,24 +127,45 @@
     .photo_real {
         background-image: url(../photos/Toute_real.png);
         background-size: cover;
+        justify-self: end;
     }
     .photo_paques {
         background-image: url(../photos/Real_paque.png);
         background-size: cover;
     }
 
-    .text_bandeau {
-        text-align: center;
-        font-family: var(--font-content);
-        font-size: 2rem;
-        margin-bottom: 1.5rem;
-    }
+    /*             MEDIA QUERIES                */
 
-    .container_text{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+    @media screen and (max-width : 691px) {
+        
+        .container_titre{
+            font-size: 5rem;
+        }
 
+        .container_card{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+        }
 
-    /* ---------FIN-CARDS-------- */
+        .card_real{
+            width: 100%;
+            border-radius: 0;
+            margin: 15px 0 15px 0;
+        }
+
+        .card_real_large{
+            width: 100%;
+            border-radius: 0;
+            margin: 15px 0 15px 0;
+        }
+
+        .bandeau_card {
+            border-radius: 0;
+            height: 50%;
+            width: 100%;
+            font-size: 3.7rem;
+        } 
+        
+     }

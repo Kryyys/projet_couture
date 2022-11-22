@@ -19,6 +19,7 @@ main {
     text-align: center;
     font-size: 6rem;
     padding: 15px;
+    text-shadow: var(--text-shadow-h1);
 }
 
 #real {

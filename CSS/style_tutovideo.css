@@ -19,6 +19,7 @@ main {
     text-align: center;
     font-size: 6rem;
     padding: 35px;
+    text-shadow: var(--text-shadow-h1);
 }
 
 /* VIDEO */
@@ -36,10 +37,18 @@ main {
     text-align: center;
     padding: 50px;
     font-size: 1.4rem;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
 }
 
 .liste_tuto {
     list-style: disc;
     list-style-position: inside;
+}
+
+@media screen and (max-width:691px) {
+
+
+    .titre_tuto {
+        font-size: 4.5rem;
+    }
 }

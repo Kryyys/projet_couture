@@ -21,7 +21,7 @@ NOS ATELIERS SAISONNIERS - CARDS
     text-align: center;
     font-size: 3.5rem;
     padding: 20px;
-    filter: var(--drop-shadow-global);
+    text-shadow: var(--text-shadow-h1);
 }
 
 

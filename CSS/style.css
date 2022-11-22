@@ -6,7 +6,8 @@
     --background-extra-light: #fcf3b4;
     --drop-shadow-global: drop-shadow(0px 4px 30px #000000b8);
     --drop-shadow-article: drop-shadow(0px 4px 30px #00000020);
-    --text-shadow-h1: 0px 4px 30px #000000c3;
+    --text-shadow-h1: 0px 4px 3px #a9a9a9c3;
+    --text-shadow-noir: 0px 4px 3px #000000c3;
 
 
 }
@@ -233,12 +234,6 @@ h3 {
 #arborescence a:hover {
     color: var(--background-extra-light);
 }
-
-
-
-
-
-
 
 
 /* --------------------------------------------------------
@@ -469,4 +464,32 @@ h3 {
 #arborescence a:hover {
     color: var(--background-extra-light);
 }
-}
+=======
+/* ----- RESPONSIVE FOOTER ----- */
+
+@media screen and (max-width:691px) {
+
+    #nav_footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #arborescence {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 15%;
+    }
+
+    #coordonnees {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-right: 0px;
+    }
+
+    #nav_footer #coordonnees {
+        padding: 0px;
+    }
+    
