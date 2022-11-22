@@ -93,3 +93,57 @@ main {
     background-image: url(../photos/Chat.png);
     background-size: cover;
 }
+
+
+/* --------------------------------------------------------
+-----------------------------------------------------------
+-----------------------MEDIA QUERY-------------------------
+-----------------------------------------------------------
+-------------------------------------------------------- */
+
+
+
+@media screen and (max-width: 691px) {
+
+.container_titre {
+    background-color: var(--background-light);
+    height: 380px;
+}
+
+.container_titre h2 {
+    margin-top: 30px;
+    color: var(--background-dark);
+    text-shadow:  0 2px 4px rgba(0, 0, 0, 0.385);
+    font-size: 6rem;
+}
+
+.card_ourson, .card_chat, .card_tortue {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 90px;
+}
+
+.bandeau{
+    width: 100%;
+    height: 38%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.titre_card{
+    font-size: 6rem;
+    top: -10px;
+    color: black;
+}
+.date{
+    display: none;
+}
+
+.listing_level{
+    font-size: 1.8rem;
+    padding-bottom: 20px;
+    line-height: 1.5rem;
+}
+}
