@@ -235,145 +235,6 @@ h3 {
     color: var(--background-extra-light);
 }
 
-
-/* --------------------------------------------------------
------------------------------------------------------------
------------------------MEDIA QUERY-------------------------
------------------------------------------------------------
--------------------------------------------------------- */
-
-
-
-@media screen and (max-width: 691px) {
-
-/* ------------- HEADER ------------- */
-
-nav {
-    display: flex;
-    vertical-align: auto;
-}
-
-.navbar {
-    width: 100%;
-    font-size: 2.5em;
-    letter-spacing: 0.04em;
-    display: flex;
-    align-items: center;
-    height: 110px;
-}
-
-.logonav {
-    width: 90px;
-    margin-left: 10px;
-}
-
-.titre_logo {
-    display: flex;
-    align-items: center;
-    padding-left: 20px;
-    font-size: 4rem;
-    /* 
-    >>>>>>>>>>> CENTRER LE TITRE DU HEADER <<<<<<<<<<
-
-    position: absolute;
-    left: 50%;     
-    right: 50%; */
-}
-
-.logo_gauche {
-    padding-left: 10px;
-}
-
-header .burger {
-    display: flex;
-    flex-direction: column;
-    display: none;
-    font-size: 3rem;
-    position: absolute;
-    right: 0px;
-    top: 110px;
-    width: 32%;
-    z-index: 3;
-}
-
-header li {
-    padding: 0px;
-    text-align: center;
-    background-color: var(--background-dark);    
-}
-
-.burger li {
-    border-top: solid 2px var(--background-extra-light);
-    width: 100%;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-}
-
-a {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-[title="Rechercher"] {
-    padding: 5px 20px 0 0;
-    display: none;
-}
-
-
-/*--------------------BURGER MENU---------------------------
-------------------------------------------------------------
---------------------------------------------------------- */
-
-
-#toggle {
-    display: none;
-}
-
-.line {
-    width: 55px;
-    height: 6px;
-    background-color: var(--background-extra-light);
-    margin-bottom: 7px;
-    border-radius: 11%;
-    margin-right: 50px;
-}
-
-label {
-    cursor: pointer;
-}
-
-#toggle:checked ~ .burger {
-    display: flex;
-    align-items: center;
-    background-color: var(--background-dark);
-}
-
-
-/* --------BANNIERE ------------ */
-
-.banniere {
-    background-image: url(../photos/banner2.png);
-    background-size: cover;
-    background-color: black;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    height: 200px;
-}
-
-.logobanniere {
-    width: 250px;
-    position: absolute;
-    top: 40%;
-    z-index: 2;
-    margin : 0 0 0 0;
-}
-
 /* ------------- FOOTER ------------- */
 /* ------------- NEWSLETTER ------------- */
 #newsletter {
@@ -464,7 +325,136 @@ h3 {
 #arborescence a:hover {
     color: var(--background-extra-light);
 }
-=======
+
+/* --------------------------------------------------------
+-----------------------------------------------------------
+-----------------------MEDIA QUERY-------------------------
+-----------------------------------------------------------
+-------------------------------------------------------- */
+
+/*--------------------BURGER MENU------------------------*/
+
+#toggle {
+    display: none;
+}
+
+.line {
+    width: 55px;
+    height: 6px;
+    background-color: var(--background-extra-light);
+    margin-bottom: 7px;
+    border-radius: 11%;
+    margin-right: 50px;
+}
+
+label {
+    cursor: pointer;
+}
+
+#toggle:checked ~ .burger {
+    display: flex;
+    align-items: center;
+    background-color: var(--background-dark);
+}
+
+/* ------------- HEADER ------------- */
+
+nav {
+    display: flex;
+    vertical-align: auto;
+}
+
+.navbar {
+    width: 100%;
+    font-size: 2.5em;
+    letter-spacing: 0.04em;
+    display: flex;
+    align-items: center;
+    height: 110px;
+}
+
+.logonav {
+    width: 90px;
+    margin-left: 10px;
+}
+
+.titre_logo {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 4rem;
+    /* 
+    >>>>>>>>>>> CENTRER LE TITRE DU HEADER <<<<<<<<<<
+
+    position: absolute;
+    left: 50%;     
+    right: 50%; */
+}
+
+.logo_gauche {
+    padding-left: 10px;
+}
+
+header .burger {
+    display: flex;
+    flex-direction: column;
+    display: none;
+    font-size: 3rem;
+    position: absolute;
+    right: 0px;
+    top: 110px;
+    width: 32%;
+    z-index: 3;
+}
+
+header li {
+    padding: 0px;
+    text-align: center;
+    background-color: var(--background-dark);    
+}
+
+.burger li {
+    border-top: solid 2px var(--background-extra-light);
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+[title="Rechercher"] {
+    padding: 5px 20px 0 0;
+    display: none;
+}
+
+/* --------BANNIERE ------------ */
+
+.banniere {
+    background-image: url(../photos/banner2.png);
+    background-size: cover;
+    background-color: black;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 200px;
+}
+
+.logobanniere {
+    width: 250px;
+    position: absolute;
+    top: 40%;
+    z-index: 2;
+    margin : 0 0 0 0;
+}
+
 /* ----- RESPONSIVE FOOTER ----- */
 
 @media screen and (max-width:691px) {
@@ -492,4 +482,4 @@ h3 {
     #nav_footer #coordonnees {
         padding: 0px;
     }
-    
+}
