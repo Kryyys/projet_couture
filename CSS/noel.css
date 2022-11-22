@@ -49,7 +49,6 @@ main {
 
 .card_confectionner {
     display: flex;
-    align-items: flex-end;
     justify-content: center;
     background-color: white;
     height: 400px;
@@ -88,12 +87,23 @@ main {
     background-size: cover;
 }
 
-/* ----- MADIA QUERIES ------ */
+/* ----- MEDIA QUERIES ------ */
 
 @media screen and (max-width:691px) {
 
-    main, .cards {
+    .cards {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .titre_noel {
+        padding-top: 160px;
+    }
+
+    .card_confectionner {
+        margin: 30px;
     }
 }
