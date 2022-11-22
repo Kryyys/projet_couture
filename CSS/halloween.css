@@ -89,3 +89,25 @@ main {
     background-image: url(../photos/card-halloween-6.png);
     background-size: cover;
 }
+
+
+/* ----- MEDIA QUERIES ------ */
+
+@media screen and (max-width:691px) {
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .titre_halloween {
+        padding-top: 160px;
+    }
+
+    .card_confectionner {
+        margin: 30px;
+    }
+}

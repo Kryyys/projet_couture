@@ -76,6 +76,7 @@ main {
 
     .titre_tuto {
         font-size: 4.5rem;
+        padding-top: 160px;
     }
 
     .photo_haut, .images > img {
