@@ -34,8 +34,7 @@ section.association {
     padding: 80px 80px 20px 80px;
 }
 
-img.membres,
-img.cours_couture {
+img.membres, img.cours_couture {
     border-radius: 40px;
     border: 4px solid black;
     width: 100%;
@@ -140,5 +139,100 @@ section.fondateurs {
 .card_membre p {
     font-family: 'Gayathri', Helvetica;
     font-size: 1.5rem;
+}
+
+
+/* --- MEDIA QUERIES */
+
+@media screen and (max-width:691px) {
+
+/* NOTRE ASSOCIATION */
+
+    h1.association {
+        background-color: var(--background-light);
+        font-family: 'Home and Work';
+        color: black;
+        text-align: center;
+        font-size: 4.5rem;
+        text-shadow: var(--text-shadow-h1);
+        padding: 160px 0 0 0;
+    }
+
+    section.association {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .colonne_texte1 {
+        padding-top: 20px;
+        padding-right: 25px;
+    }
+
+    .colonne_texte2 {
+        padding-top: 20px;
+        padding-right: 25px;
+    }
+
+    .cours_couture {
+        margin-bottom: 20px;
+    }
+
+/* NOS FONDATEURS */
+
+    .fondateurs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section.fondateurs {
+        padding: 75px 10px 150px 10px;
+    }
+    
+    .card_fondatrices {
+        background-color: var(--background-extra-light);
+        width: 80%;
+        height: 500px;
+        margin-top: 250px;
+    } 
+
+    .margin_queries {
+        margin-top: 430px;
+    }
+
+    .bandeau {
+        position: relative;
+        display: flex;
+        text-align: center;
+    }
+
+    .photos_fondatrices {
+        position: absolute;
+        width: 60%;
+        right: 15%;
+        bottom: 140px;
+    }
+
+    .intro_fondatrices > h2 {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .intro_fondatrices > p {
+        padding: 0 0 10px 0;
+        margin: 0px;
+    }
+
+    .description_fondatrice {
+        width: 100%;
+        font-size: 1.3rem;
+        padding: 25px 0 0 0;
+        line-height: 2rem;
+    }
+
+/* NOS MEMBRES */
+
 }
 
