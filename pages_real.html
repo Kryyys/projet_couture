@@ -25,7 +25,7 @@
       <div class="navbar">
 
         <!-- LOGO GAUCHE -->
-        <ul>
+        <ul class="logo_gauche">
           <li><a href="index.html"><img class="logonav" src="photos/logo.png" alt="Logo des petites souris" /></a>
           </li>
           <li>
@@ -35,8 +35,17 @@
 
 
         <!-- NAVBAR -->
-        <div>
-          <ul>
+        <div class="burger_icon">
+          <input type="checkbox" id="toggle" name="hidden">
+          <label for="toggle">
+            <div>
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+            </div>
+          </label>
+
+          <ul class="burger">
             <li>
               <h2><a href="index.html" class="nav_links" title="Accueil">Accueil</a></h2>
             </li>
@@ -56,6 +65,7 @@
               <a href="" title="Rechercher"><img src="photos/loupe.svg" alt="" /></a>
             </li>
           </ul>
+
         </div>
 
       </div>
