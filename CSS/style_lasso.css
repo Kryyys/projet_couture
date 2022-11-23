@@ -234,5 +234,23 @@ section.fondateurs {
 
 /* NOS MEMBRES */
 
+.nos_membres {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10%;
+}
+
+.card_membre {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px
+}
+
+.card_membre img {
+    width: 60%;
+    margin: 0;
+}
+
 }
 
