@@ -75,3 +75,37 @@ section {
     font-size: 1.2rem;
     padding-bottom: 30px;
 }
+
+/* ----- MEDIA QUERIES ----- */
+
+@media screen and (max-width:691px) {
+
+    section {
+        gap: 30px;
+    }
+
+    h1 {
+        background-color: var(--background-light);
+        font-family: 'Home and Work';
+        color: black;
+        text-align: center;
+        font-size: 6rem;
+        padding: 160px 35px 35px 35px;
+        text-shadow: var(--text-shadow-h1);
+    }
+
+    .tutos_couture {
+        display: flex;
+        flex-direction: column;
+        padding : 0 0 50px 0;
+    }
+
+    .description_tuto p {
+        font-size: 1.4rem;
+    }
+
+    .photo_top_enfant {
+        height: 320px;
+    }
+    
+}
