@@ -268,3 +268,187 @@ main {
 .img_planning {
     height: 70%;
 }
+
+.titre_planning_mobile {
+    display: none;
+}
+
+table {
+    display: none;
+}
+
+
+
+/* --------------------------------------------------------
+-----------------------------------------------------------
+-----------------------MEDIA QUERY-------------------------
+-----------------------------------------------------------
+-------------------------------------------------------- */
+
+
+
+@media screen and (max-width: 691px) {
+
+/* Section 1 */
+
+.a_la_une {
+    height: 1200px;
+}
+
+.titre_une {
+    font-size: 4rem;
+    padding-top: 150px;
+}
+
+.container_une {
+    display: flex;
+    flex-direction: column;
+}
+
+.card_une {
+    width: 450px;
+    height: 250px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+}
+
+.image_une, .image_deux, .image_trois {
+    height: 100%;
+    background-size: cover;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+    /* background-size: 190%;    >>>>>>>copié de plus bas, à adapter pr postitionner les photos
+    background-position: 54% 100%; */
+}
+
+.image_une {
+    width: 1000px;
+}
+
+.image_deux {
+    width: 1050px;
+}
+
+.image_trois {
+    width: 650px;
+}
+
+.texte_card {
+    justify-content: stretch;
+}
+
+/* Section 2 */
+
+.confectionner {
+    align-items: center;
+}
+
+.titre_confection {
+    text-align: center;
+    font-size: 3.5rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.2rem;
+    width: 500px;
+}
+
+.container_confectionner {
+    margin: 0;
+    width: 100%;
+}
+
+.card_confectionner {
+    height: 290px;
+    width: 290px;
+}
+
+.photo_halloween {
+    background-image: url(../photos/robe_halloween.png);
+    background-size: contain;
+}
+
+.photo_hochet, .photo_ours {
+    display: none;
+}
+
+/* Section 3 */
+
+.tutos {
+    width: 100%;
+    height: 1300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.titre_tutos {
+    text-align: center;
+    letter-spacing: .1rem;
+    font-size: 5rem;
+    padding: 40px 0 20px 0;
+}
+
+.container_tutos {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.card_tuto {
+    width: 470px;
+    background-size: 190%;
+    background-position: 54% 100%;
+    margin-bottom: 70px;
+}
+
+.photo_couture {
+    background-image: url(../photos/tuto_couture_card.jpeg);
+}
+
+.photo_crochet {
+    background-image: url(../photos/tuto_crochet_card.jpg);
+    background-size: cover;
+}
+
+/* Section 4 PLANNING */
+
+.planning {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background-extra-light);
+}
+
+
+.titre_planning {
+    display: none;
+}
+
+
+.titre_mobile {
+    color: var(--background-dark);
+    text-align: center;
+    font-size: 4rem;
+    padding: 20px;
+    text-shadow: var(--text-shadow-noir);
+    font-family: 'Home and Work', Helvetica, sans-serif;
+    letter-spacing: .2rem;
+    margin: 15px 0 20px 0;
+}
+
+.img_planning {
+    display: none;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    font-family: 'Gayathri', Helvetica;
+    font-size: 1.5rem;
+}
+
+td {
+    padding: 5px;
+}
+}
