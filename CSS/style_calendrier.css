@@ -78,7 +78,7 @@ NOS ATELIERS SAISONNIERS - CARDS
     justify-content: center;
 }
 
-.texte_card > h3 {
+.texte_card>h3 {
     font-family: 'Home and Work', Helvetica, sans-serif;
     color: var(--background-dark);
     text-align: center;
@@ -87,7 +87,7 @@ NOS ATELIERS SAISONNIERS - CARDS
     filter: var(--drop-shadow-global);
 }
 
-.texte_card > p {
+.texte_card>p {
     font-family: "Gayathri", Arial;
     color: black;
     text-align: center;
@@ -127,4 +127,128 @@ NOS COURS - PLANNING
 
 .img_planning {
     height: 70%;
+}
+
+.titre_mobile {
+    display: none;
+}
+
+table {
+    display: none;
+}
+
+
+/* --------------------------------------------------------
+-----------------------------------------------------------
+-----------------------MEDIA QUERY-------------------------
+-----------------------------------------------------------
+-------------------------------------------------------- */
+
+
+
+@media screen and (max-width: 691px) {
+
+
+
+
+
+
+    /* Section 1 */
+
+    .a_la_une {
+        height: 1200px;
+    }
+
+    .titre_ateliers {
+        font-size: 4rem;
+        padding-top: 150px;
+    }
+
+    .container_une {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card_une {
+        width: 450px;
+        height: 250px;
+        margin-bottom: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+        display: flex;
+    }
+
+    .image_une,
+    .image_deux,
+    .image_trois {
+        height: 100%;
+        background-size: cover;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .image_une {
+        width: 1000px;
+        background-size: 180%;
+        background-position: 40%;
+    }
+
+    .image_deux {
+        width: 1050px;
+        background-size: 127%;
+        background-position: 60%;
+    }
+
+    .image_trois {
+        width: 650px;
+        background-size: 205%;
+        background-position: 40%;
+    }
+
+    .texte_card {
+        justify-content: stretch;
+    }
+
+
+    /* Section 2 PLANNING */
+
+    .planning {
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        background-color: var(--background-extra-light);
+    }
+
+
+    .titre_planning {
+        display: none;
+    }
+
+    .titre_mobile {
+        display: flex;
+        justify-content: center;
+        color: var(--background-dark);
+        font-size: 4rem;
+        padding: 20px;
+        text-shadow: var(--text-shadow-noir);
+        font-family: 'Home and Work', Helvetica, sans-serif;
+        letter-spacing: .2rem;
+        margin: 15px 0 20px 0;
+    }
+
+    .img_planning {
+        display: none;
+    }
+
+    table {
+        display: flex;
+        justify-content: center;
+        font-family: 'Gayathri', Helvetica;
+        font-size: 1.5rem;
+    }
+
+    td {
+        padding: 5px;
+    }
+
 }
