@@ -27,7 +27,7 @@ main {
     font-family: 'Home and Work', Helvetica, sans-serif;
     color: black;
     text-align: center;
-    font-size: 4.5rem;
+    font-size: 6rem;
     padding: 20px;
     text-shadow: var(--text-shadow-h1);
 }
@@ -44,7 +44,7 @@ main {
 .cards {
     display: flex;
     justify-content: space-around;
-    margin: 50px 300px 50px 300px;
+    margin: 50px 10% 50px 10%;
 }
 
 .photos {
