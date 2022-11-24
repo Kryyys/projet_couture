@@ -37,6 +37,15 @@ main {
     background-size: cover;
 }
 
+.card_ourson > a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.card_ourson > a{
+    color: black;
+}
+
 .bandeau{
     width: 300px;
     height: 100%;
