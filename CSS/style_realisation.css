@@ -138,27 +138,42 @@ main {
 
     @media screen and (max-width : 691px) {
         
+        main {
+            text-shadow: var(--text-shadow-h1);
+        }
+
+        .background_main{
+            background-color: var(--background-light);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
         .container_titre{
+            background-color: var( --background-light);
             font-size: 5rem;
+            color: var(--background-dark);
+            text-shadow: var(--text-shadow-noir);
+            padding-top: 200px;
         }
 
         .container_card{
             width: 100%;
             display: flex;
             flex-direction: column;
-            padding: 0;
+            padding: 80px 0 80px 0 ;
         }
 
         .card_real{
             width: 100%;
             border-radius: 0;
-            margin: 15px 0 15px 0;
+            /* margin: 15px 0 15px 0; */
         }
 
         .card_real_large{
             width: 100%;
             border-radius: 0;
-            margin: 15px 0 15px 0;
+            /* margin: 15px 0 15px 0; */
         }
 
         .bandeau_card {
