@@ -157,7 +157,7 @@ main {
     transform: translateX(-23px) translateY(-10px);
 }
 
-#chevron {
+.chevron {
     cursor: pointer;
 }
 
