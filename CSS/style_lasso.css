@@ -157,7 +157,7 @@ section.fondateurs {
         font-family: 'Home and Work';
         color: black;
         text-align: center;
-        font-size: 4.5rem;
+        font-size: 6rem;
         text-shadow: var(--text-shadow-h1);
         padding: 160px 0 0 0;
     }
@@ -189,6 +189,8 @@ section.fondateurs {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        font-size: 6rem;
+        padding: 0;
     }
 
     section.fondateurs {
@@ -237,6 +239,11 @@ section.fondateurs {
     }
 
 /* NOS MEMBRES */
+
+.titre_membre {
+    font-size: 6rem;
+    padding: 0;
+}
 
 .nos_membres {
     display: flex;
