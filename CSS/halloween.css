@@ -99,6 +99,17 @@ main {
 
 @media screen and (max-width:691px) {
 
+    .banniere_halloween {
+        background-image: url(../photos/banniere-halloween.png);
+        background-size: cover;
+        background-color: black;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        height: 200px;
+    }
+
     .cards {
         display: flex;
         flex-direction: column;
