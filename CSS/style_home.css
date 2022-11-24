@@ -122,7 +122,7 @@ main {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 0 300px 0 300px;
+    margin: 0 30px 0 30px;
 }
 
 .card_confectionner {
@@ -140,17 +140,17 @@ main {
 
 .photo_halloween {
     background-image: url(../photos/robe_halloween.png);
-    background-size: contain;
+    background-size: cover;
 }
 
 .photo_hochet {
     background-image: url(../photos/hochets_animaux.png);
-    background-size: contain;
+    background-size: cover;
 }
 
 .photo_ours {
     background-image: url(../photos/ours_amigurumi.png);
-    background-size: contain;
+    background-size: cover;
 }
 
 #citrouille {
@@ -270,7 +270,7 @@ main {
 }
 
 .img_planning {
-    height: 70%;
+    height: 400px;
 }
 
 .titre_planning_mobile {
