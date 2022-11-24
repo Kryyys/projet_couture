@@ -22,6 +22,15 @@ section {
     background-color: var(--background-light);
 }
 
+.card  a {
+    text-decoration: none;
+    color: black;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
 
 /* ------------------CARDS-------------- */
 
