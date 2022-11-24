@@ -69,7 +69,6 @@ table {
 
 nav {
     display: flex;
-    vertical-align: auto;
 }
 
 .navbar {
@@ -260,7 +259,6 @@ span {
 
 nav {
     display: flex;
-    vertical-align: auto;
 }
 
 .navbar {

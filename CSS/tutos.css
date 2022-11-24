@@ -37,6 +37,10 @@ main {
     margin: 30px 0 80px 0;
 }
 
+.petitcontainer h2 {
+    display: none;
+}
+
 .card_carre {
     display: flex;
     align-items: flex-end;
@@ -94,6 +98,10 @@ main {
     align-items: center;
     justify-content: center;
     padding: 30px;
+}
+
+.grandcontainer h2 {
+    display: none;
 }
 
 .card_tuto {
