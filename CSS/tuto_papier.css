@@ -68,6 +68,10 @@ main {
     margin: 50px;
 }
 
+h4 {
+    display: none;
+}
+
 
 /* ----- MEDIA QUERIES ------ */
 

@@ -2,11 +2,11 @@
 <html lang="fr">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="CSS/style.css" type="text/css" />
-  <link rel="stylesheet" href="CSS/tuto_papier.css" type="text/css" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/style.css" type="text/css">
+  <link rel="stylesheet" href="CSS/tuto_papier.css" type="text/css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Gayathri&display=swap" rel="stylesheet">
@@ -26,7 +26,7 @@
 
         <!-- LOGO GAUCHE -->
         <ul class="logo_gauche">
-          <li><a href="index.html"><img class="logonav" src="photos/logo.png" alt="Logo des petites souris" /></a>
+          <li><a href="index.html"><img class="logonav" src="photos/logo.png" alt="Logo des petites souris"></a>
           </li>
           <li>
             <h2 class="titre_logo">Atelier de couture</h2>
@@ -56,7 +56,7 @@
               <h2><a href="lasso.html" class="nav_links" title="L'asso">L'asso</a></h2>
             </li>
             <li>
-              <a href="" title="Rechercher"><img src="photos/loupe.svg" alt="" /></a>
+              <a href="" title="Rechercher"><img src="photos/loupe.svg" alt=""></a>
             </li>
           </ul>
 
@@ -83,16 +83,18 @@
 
     <h1 class="titre_tuto">Patron Petite Trousse</h1>
 
-    <section class="image_trousse">
+    <div class="image_trousse">
 
       <img src="photos/trousse_tuto_papier.jpg" class="photo_haut" alt="photo trousse">
       <p>Nous allons réaliser aujourd'hui une petite trousse triangle, idéale pour vos enfants à la rentrée ou pour
         votre maquillage qui traîne partout.</p>
       <p>Commençons d'abord par télécharger et imprimer les patrons. Vous pouvez les <a href="#"
           class="dl_patron">télécharger ici !</a></p>
-    </section>
+    </div>
 
     <section class="tuto">
+
+      <h4>hidden</h4>
 
       <div class="images">
         <img src="photos/patron_1.jpg" alt="Patron">
@@ -134,6 +136,8 @@
     </section>
 
     <section class="tuto">
+
+      <h4>hidden</h4>
 
     <div class="texte">
 
@@ -187,7 +191,7 @@
 
     <div id="newsletter">
       <p>Abonnez-vous à notre newsletter !</p>
-      <form action="">
+      <form>
         <input type="email" placeholder="Votre email">
         <input type="submit" value="S'abonner">
       </form>
@@ -207,48 +211,39 @@
         <div id="calendrier">
 
           <ul>
-            <h3>Calendrier</h3>
-            <a href="calendrier.html">
-              <li>Planning <br>et évènements</li>
-            </a>
+            <li><span>Calendrier</span></li>
+            <li><a href="calendrier.html">Planning <br>et évènements</a></li>
           </ul>
+
         </div>
         <div id="realisations">
 
           <ul>
-            <h3>Realisations</h3>
-            <a href="recherche_real.html">
-              <li>Catégories de réalisations</li>
-            </a>
-            <a href="recherche_real.html">
-              <li>Dernières réalisations</li>
-            </a>
+            <li><span>Realisations</span></li>
+            <li><a href="recherche_real.html">Catégories de réalisations</a></li>
+            <li><a href="recherche_real.html">Dernières réalisations</a></li>
           </ul>
+
         </div>
         <div id="tutos">
+          
           <ul>
-            <h3>Tutos</h3>
-            <a href="recherche_tutos.html">
-              <li>Tutos vidéo</li>
-            </a>
-            <a href="recherche_tutos.html">
-              <li>Tutos photos</li>
-            </a>
-            <a href="recherche_tutos.html">
-              <li>Patrons</li>
-            </a>
+            <li><span>Tutos</span>
+            <li><a href="recherche_tutos.html">Tutos vidéo</a></li>
+            <li><a href="recherche_tutos.html">Tutos photos</a></li>
+            <li><a href="recherche_tutos.html">Patrons</a></li>
           </ul>
+
         </div>
         <div id="asso">
 
           <ul>
-            <h3>L'asso</h3>
-            <a href="lasso.html">
-              <li>Histoire et fondateurs</li>
-            </a>
+            <li><span>L'asso</span></li>
+            <li><a href="lasso.html">Histoire et fondateurs</a></li>
           </ul>
         </div>
       </div>
+
       <div id="coordonnees">
         <p>Les Petites Souris <br> 142, route de Mauguio <br>34 130 MAUGUIO</p>
         <p>lespetitessouris@gmail.com</p>

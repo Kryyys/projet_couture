@@ -5,8 +5,9 @@
 }
 
 main {
-    text-shadow: var(--text-shadow-h1);
+    filter: drop-shadow(0px 5px 5px rgb(107, 106, 106));
 }
+
 /* ---------TITRE-------- */
 .background_main{
     background-color: var(--background-light);
@@ -20,7 +21,7 @@ main {
     background-color: var( --background-dark);
     font-family: var( --font-titles);
     font-size: 6rem;
-    color: var(--background-light);
+    color: var(--background-extra-light);
     text-shadow: var(--text-shadow-noir);
     display: flex;
     justify-content: center;
