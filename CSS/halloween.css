@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+main h2{ 
+    display: none;
+}
+
 main { 
     background-image: url(../photos/background-halloween.png);
     background-size: cover;
