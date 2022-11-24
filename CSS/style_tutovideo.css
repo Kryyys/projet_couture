@@ -45,6 +45,10 @@ main {
     list-style-position: inside;
 }
 
+p > a {
+    color: var(--background-dark);
+}
+
 @media screen and (max-width:691px) {
 
 
