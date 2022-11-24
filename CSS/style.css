@@ -331,13 +331,11 @@ a:hover {
     display: none;
 }
 
-.line {
-    width: 55px;
-    height: 6px;
-    background-color: var(--background-extra-light);
-    margin-bottom: 7px;
+label > img {
+    width: 65px;
     border-radius: 11%;
     margin-right: 50px;
+    margin-top: 10px;
 }
 
 label {
