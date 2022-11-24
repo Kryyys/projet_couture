@@ -11,6 +11,10 @@ main {
     filter: drop-shadow(0px 5px 5px rgb(107, 106, 106));
 }
 
+h2 {
+    display: none;
+}
+
 .banniere_noel {
     background-image: url(../photos/banniere-noel.png);
     background-size: cover;

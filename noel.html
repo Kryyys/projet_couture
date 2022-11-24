@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="CSS/style.css" type="text/css"/>
-    <link rel="stylesheet" href="CSS/noel.css" type="text/css"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css" type="text/css">
+    <link rel="stylesheet" href="CSS/noel.css" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gayathri&display=swap" rel="stylesheet">
@@ -24,7 +24,7 @@
 
       <!-- LOGO GAUCHE -->
       <ul class="logo_gauche">
-        <li><a href="index.html"><img class="logonav" src="photos/logo.png" alt="Logo des petites souris" /></a>
+        <li><a href="index.html"><img class="logonav" src="photos/logo.png" alt="Logo des petites souris"></a>
         </li>
         <li>
           <h2 class="titre_logo">Atelier de couture</h2>
@@ -35,13 +35,7 @@
       <!-- NAVBAR -->
       <div class="burger_icon">
         <input type="checkbox" id="toggle" name="hidden">
-        <label for="toggle">
-          <div>
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-          </div>
-        </label>
+        <label for="toggle"><img src="photos/icon_burger.png" alt=""></label>
 
         <ul class="burger">
           <li>
@@ -60,13 +54,13 @@
             <h2><a href="lasso.html" class="nav_links" title="L'asso">L'asso</a></h2>
           </li>
           <li>
-            <a href="" title="Rechercher"><img src="photos/loupe.svg" alt="" /></a>
+            <a href="" title="Rechercher"><img src="photos/loupe.svg" alt=""></a>
           </li>
         </ul>
 
       </div>
 
-    </div>x
+    </div>
 
   </nav>
 
@@ -93,12 +87,13 @@
     </div>
 
     <section class="cards">
+      <h2>Hidden</h2>
       <div class="card_confectionner card_1">
-        <a href="#" alt="Décorations Noel"></a>
+        <a href="#" title="Décorations Noel"></a>
       </div>
 
       <div class="card_confectionner card_2">
-        <a href="#" alt="Décorations Noel"></a>
+        <a href="#" title="Décorations Noel"></a>
       </div>
     </section>
 
@@ -109,12 +104,13 @@
     </div>
 
     <section class="cards">
+      <h2>Hidden</h2>
       <div class="card_confectionner card_3">
-        <a href="#" alt="Costumes Noel"></a>
+        <a href="#" title="Costumes Noel"></a>
       </div>
 
       <div class="card_confectionner card_4">
-        <a href="#" alt="Costumes Noel"></a>
+        <a href="#" title="Costumes Noel"></a>
       </div>
     </section>
 
@@ -125,12 +121,13 @@
     </div>
 
     <section class="cards">
+      <h2>Hidden</h2>
       <div class="card_confectionner card_5">
-        <a href="#" alt="Accessoires Noel"></a>
+        <a href="#" title="Accessoires Noel"></a>
       </div>
 
       <div class="card_confectionner card_6">
-        <a href="#" alt="Accessoires Noel"></a>
+        <a href="#" title="Accessoires Noel"></a>
       </div>
     </section>
 
@@ -144,7 +141,7 @@
 
     <div id="newsletter">
       <p>Abonnez-vous à notre newsletter !</p>
-      <form action="">
+      <form>
         <input type="email" placeholder="Votre email">
         <input type="submit" value="S'abonner">
       </form>
@@ -164,48 +161,39 @@
         <div id="calendrier">
 
           <ul>
-            <h3>Calendrier</h3>
-            <a href="calendrier.html">
-              <li>Planning <br>et évènements</li>
-            </a>
+            <li><span>Calendrier</span></li>
+            <li><a href="calendrier.html">Planning <br>et évènements</a></li>
           </ul>
+
         </div>
         <div id="realisations">
 
           <ul>
-            <h3>Realisations</h3>
-            <a href="recherche_real.html">
-              <li>Catégories de réalisations</li>
-            </a>
-            <a href="recherche_real.html">
-              <li>Dernières réalisations</li>
-            </a>
+            <li><span>Realisations</span></li>
+            <li><a href="recherche_real.html">Catégories de réalisations</a></li>
+            <li><a href="recherche_real.html">Dernières réalisations</a></li>
           </ul>
+
         </div>
         <div id="tutos">
+          
           <ul>
-            <h3>Tutos</h3>
-            <a href="recherche_tutos.html">
-              <li>Tutos vidéo</li>
-            </a>
-            <a href="recherche_tutos.html">
-              <li>Tutos photos</li>
-            </a>
-            <a href="recherche_tutos.html">
-              <li>Patrons</li>
-            </a>
+            <li><span>Tutos</span>
+            <li><a href="recherche_tutos.html">Tutos vidéo</a></li>
+            <li><a href="recherche_tutos.html">Tutos photos</a></li>
+            <li><a href="recherche_tutos.html">Patrons</a></li>
           </ul>
+
         </div>
         <div id="asso">
 
           <ul>
-            <h3>L'asso</h3>
-            <a href="lasso.html">
-              <li>Histoire et fondateurs</li>
-            </a>
+            <li><span>L'asso</span></li>
+            <li><a href="lasso.html">Histoire et fondateurs</a></li>
           </ul>
         </div>
       </div>
+
       <div id="coordonnees">
         <p>Les Petites Souris <br> 142, route de Mauguio <br>34 130 MAUGUIO</p>
         <p>lespetitessouris@gmail.com</p>

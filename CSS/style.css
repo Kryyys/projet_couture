@@ -121,6 +121,10 @@ a:hover {
     padding: 5px 20px 0 0;
 }
 
+.burger_icon > label {
+    display: none;
+}
+
 #toggle {
     display: none;
 }
@@ -192,6 +196,7 @@ a:hover {
 
 
 /* ------------- ABRORESCENCE ------------- */
+
 #nav_footer {
     background-color: var(--background-dark);
     color: var(--background-extra-light);
@@ -200,8 +205,7 @@ a:hover {
     padding: 0 35px 0 35px;
 }
 
-
-h3 {
+span {
     font-family: Home and Work;
     color: var(--clr-titles);
     font-size: 3em;
@@ -235,6 +239,9 @@ h3 {
     color: var(--background-extra-light);
 }
 
+#arborescence a {
+    color: var(--background-extra-light)
+}
 
 /* --------------------------------------------------------
 -----------------------------------------------------------
@@ -331,11 +338,12 @@ a:hover {
     display: none;
 }
 
-.line {
-    width: 55px;
-    height: 6px;
-    background-color: var(--background-extra-light);
-    margin-bottom: 7px;
+.burger_icon > label {
+    display: flex;
+}
+
+label > img {
+    width: 65px;
     border-radius: 11%;
     margin-right: 50px;
 }
