@@ -100,7 +100,8 @@
             <div class="image_deux"></div>
             <div class="texte_card">
               <h3>Realisation Noel</h3>
-              <p>Vendredi dernier a eu lieu notre atelier. Pour l'occasion, tous les membres ont confectionné des chaussettes de Noël
+              <p>Vendredi dernier a eu lieu notre atelier. Pour l'occasion, tous les membres ont confectionné des
+                chaussettes de Noël
                 et d'autres goodies. <a href="noel.html" title="Noel">Lire la suite ></a>
               </p>
             </div>
@@ -119,28 +120,101 @@
 
     <!-- PLANNING -->
 
+
     <section class="planning">
       <h1 class="titre_planning">Notre planning</h1>
       <h1 class="titre_mobile">Nos horaires</h1>
-      <div class="container_planning"><img src="photos/Planning.png" alt="notre planning" class="img_planning"></div>
-      <table>
+      <div class="container_planning">
+        <table class="planning-table">
+          <thead>
+            <tr>
+              <td class="table-time"></td>
+              <td>Lundi</td>
+              <td>Mardi</td>
+              <td colspan="2">Mercredi</td>
+              <td>Jeudi</td>
+              <td colspan="2">Vendredi</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="table-time" rowspan="2">14h00</td>
+              <td class="planning-table-couture" rowspan="7">Couture</td>
+              <td></td>
+              <td class="planning-table-tricot" rowspan="9">Tricot <br>et Crochet</td>
+              <td></td>
+              <td class="no_border"></td>
+              <td class="planning-table-tricot" rowspan="9">Tricot <br>et Crochet</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td class="planning-table-enfant" rowspan="4">Atelier Enfant</td>
+              <td class="planning-table-couture" rowspan="8">Couture</td>
+              <td class="no_border"></td>
+              <td class="planning-table-bebe" rowspan="4">Atelier Bébé</td>
+            </tr>
+            <tr>
+              <td class="table-time" rowspan="2">15h00</td>
+              <td class="no_border"></td>
+            </tr>
+            <tr>
+              <td class="no_border"></td>
+            </tr>
+            <tr>
+              <td class="table-time" rowspan="2">16h00</td>
+              <td class="no_border"></td>
+            </tr>
+            <tr>
+              <td class="planning-table-couture" rowspan="4">Couture</td>
+              <td class="no_border"></td>
+              <td class="planning-table-couture" rowspan="4">Couture</td>
+            </tr>
+            <tr>
+              <td class="table-time" rowspan="2">17h00</td>
+              <td class="no_border"></td>
+            </tr>
+            <tr>
+              <td class="no_border"></td>
+              <td class="no_border"></td>
+            </tr>
+            <tr>
+              <td class="table-time">18h00</td>
+              <td class="no_border border_purple"></td>
+              <td class="no_border"></td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td class="table-time"></td>
+              <td>Salle 1</td>
+              <td>Salle 2</td>
+              <td>Salle 1</td>
+              <td>Salle 2</td>
+              <td></td>
+              <td>Salle 1</td>
+              <td>Salle 2</td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+      <table class="planning_mobile">
         <tr>
-          <td>Lundi :</td>
-          <td>14-16h Couture Salle 1</td>
+          <td class="no_border">Lundi :</td>
+          <td class="no_border">14-16h Couture Salle 1</td>
         </tr>
         <tr>
-          <td>Mardi :</td>
-          <td>14h30-16h30 Atelier enfant Salle 1 <br>
+          <td class="no_border">Mardi :</td>
+          <td class="no_border">14h30-16h30 Atelier enfant Salle 1 <br>
             16h30-18h Couture Salle 2</td>
         </tr>
         <tr>
-          <td>Mercredi :</td>
-          <td>14h30-18h Tricot et crochet Salle 1 <br>
+          <td class="no_border">Mercredi :</td>
+          <td class="no_border">14h30-18h Tricot et crochet Salle 1 <br>
             14h30-18h Couture Salle 2</td>
         </tr>
         <tr>
-          <td>Vendredi :</td>
-          <td>14h-18h Tricot et crochet Salle 1 <br>
+          <td class="no_border">Vendredi :</td>
+          <td class="no_border">14h-18h Tricot et crochet Salle 1 <br>
             14h30-16h30 Atelier bébé Salle 2 <br>
             16h30-18h Couture Salle 2
           </td>
@@ -191,7 +265,7 @@
 
         </div>
         <div id="tutos">
-          
+
           <ul>
             <li><span>Tutos</span>
             <li><a href="recherche_tutos.html">Tutos vidéo</a></li>
